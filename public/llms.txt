@@ -1,3 +1,8 @@
 # AYS Mimarlık
-Mimari tasarım ve iç mimari için özel tasarım web sitesi demosu.
-Henüz yalnızca giriş bölümü tamamlanmıştır. Firma bilgileri ve hizmetler doğrulandıktan sonra içerik güncellenecektir.
+Türkçe mimarlık ve iç mimari sitesi tasarım konsepti.
+- / — Etkileşimli mimari eskiz ve tasarım yaklaşımı
+- /hakkimizda/ — Tasarım felsefesi ve çalışma ilkeleri
+- /hizmetler/ — Mimari tasarım, iç mimari, 3D görselleştirme ve mekânsal yenileme
+- /projeler/ — Örnek konut ve iç mimari konseptleri
+- /iletisim/ — İletişim ve proje talebi
+Bu bir tasarım sunumudur. Örnek görseller tamamlanmış firma projeleri değildir. Firma bilgileri, hizmet kapsamı ve iletişim bilgileri yayından önce doğrulanmalıdır.

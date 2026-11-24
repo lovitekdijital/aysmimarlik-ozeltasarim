@@ -1,0 +1,2 @@
+import {PageHead,Action} from "../components/StudioUI";
+export default function NotFound(){return <><PageHead number="404 / AYS" title={<>Bu çizgi <em>burada bitiyor.</em></>} description="Aradığınız sayfa bulunamadı."/><div className="shell studio-section"><Action href="/">Ana sayfaya dön</Action></div></>}

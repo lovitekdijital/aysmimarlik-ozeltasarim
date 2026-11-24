@@ -1,3 +1,4 @@
-import Placeholder from "../../components/Placeholder";
-export const metadata={title:"Hizmetler",robots:{index:false,follow:false}};
-export default function Page(){return <Placeholder title="Hizmetler"/>}
+import {meta,services} from "../../lib/site";
+import {PageHead,Photo,Eyebrow,LineIcon,SectionTitle,Process,CTA,Action} from "../../components/StudioUI";
+export const metadata=meta("Hizmetler","Mimari tasarım, iç mimari, konsept ve 3D görselleştirme, mekânsal yenileme hizmetleri.","/hizmetler/");
+export default function Services(){return <><PageHead number="02 / HİZMETLER" title={<>Bir fikri<br/><em>mekâna dönüştürmek.</em></>} description="Tasarımın farklı ölçeklerinde, işlev ve estetiği bir araya getiren bütüncül bir yaklaşım."/><section className="shell studio-service-details">{services.map(s=><article id={"hizmet-"+s.id} key={s.id}><div className="studio-image-frame"><Photo src={s.image} alt={s.title+" örnek konsept görseli"}/><div className="frame-caption"><span>HİZMET / {s.id}</span><span>+</span></div></div><div><LineIcon kind={s.icon}/><Eyebrow>{s.id} / UZMANLIK</Eyebrow><h2>{s.title}<em>.</em></h2><p>{s.text}</p><Action href="/iletisim/" outline>Projenizi konuşalım</Action></div></article>)}</section><section className="studio-tint"><div className="shell studio-section"><SectionTitle number="ÇALIŞMA YÖNTEMİ" title={<>Adım adım <em>tasarım.</em></>}/><Process/></div></section><CTA/></>}

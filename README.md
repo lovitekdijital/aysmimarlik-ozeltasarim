@@ -1,5 +1,6 @@
 # AYS Mimarlık — Özel Tasarım
+Next.js App Router ile hazırlanmış beş sayfalı mimarlık sitesi. SVG ev animasyonu, etkileşimli kalem/silgi tuvali, proje filtreleme ve iletişim formu demosu.
 
-Aşama 1: navbar, animasyonlu hero ve sonraki sayfalar için boş iskelet. Next.js App Router, statik Cloudflare Pages yayını.
-
-`npm install` ve `npm run dev` ile çalıştırın. `npm run build` çıktısı `out` dizinidir. Demo, arama motorlarına indekslenmez. Gerçek içerik ve alan adı onaylandıktan sonra SEO ayarları açılmalıdır.
+Yerel geliştirme: npm install && npm run dev.
+Cloudflare Pages: npm run build, çıktı out, Node 22 önerilir.
+Demo varsayılan olarak noindex. Gerçek içerik ve alan adı onaylandıktan sonra SITE_URL ve SITE_INDEXABLE=true ayarlayın. İletişim formu e-posta taslağı açar; sunucuya veri göndermez. Örnek portföy görselleri gerçek firma projeleri değildir.

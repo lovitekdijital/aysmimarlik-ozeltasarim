@@ -1,1 +1,1 @@
-export default {output:"export",trailingSlash:true,poweredByHeader:false,images:{unoptimized:true}};
+export default {output:"export",trailingSlash:true,poweredByHeader:false,images:{unoptimized:true,remotePatterns:[{protocol:"https",hostname:"images.unsplash.com",pathname:"/photo-*"}]}};
