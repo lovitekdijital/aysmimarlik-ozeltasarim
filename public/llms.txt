@@ -1,6 +1,6 @@
 # AYS İç Mimarlık
 İç mimarlık odaklı etkileşimli web sitesi tasarım demosu.
-- / — Etkileşimli eskiz, çizim tuvali ve iç mekân tasarım yaklaşımı
+- / — Animasyonlu salon planı, sürükle-bırak mobilya yerleşim aracı ve iç mekân tasarım yaklaşımı
 - /hakkimizda/ — Tasarım felsefesi
 - /hizmetler/ — İç mekân tasarımı, mobilya ve dekorasyon, 3D görselleştirme, renovasyon konseptleri
 - /projeler/ — Örnek yaşam alanı ve dekorasyon konseptleri
