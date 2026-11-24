@@ -1,5 +1,5 @@
 import {meta} from "../../lib/site";
 import {PageHead,Eyebrow,LineIcon} from "../../components/StudioUI";
 import ContactForm from "../../components/ContactForm";
-export const metadata=meta("İletişim","Yeni mimari tasarım veya iç mimari projeniz için iletişim ve proje talebi.","/iletisim/");
+export const metadata=meta("İletişim","Yeni iç mimari veya dekorasyon projeniz için iletişim ve proje talebi.","/iletisim/");
 export default function Contact(){const email=process.env.NEXT_PUBLIC_CONTACT_EMAIL,phone=process.env.NEXT_PUBLIC_CONTACT_PHONE,address=process.env.NEXT_PUBLIC_CONTACT_ADDRESS;return <><PageHead number="04 / İLETİŞİM" title={<>İlk çizgiyi<br/><em>birlikte atalım.</em></>} description="Hayalinizdeki mekânı, beklentilerinizi ve projenizin ihtiyaçlarını konuşalım."/><section className="shell studio-contact"><div className="contact-panel"><Eyebrow>AYS / İLETİŞİM</Eyebrow><h2>Bir fikriniz<br/>mi var?</h2>{email&&<p><span className="studio-label">E-POSTA</span><a href={"mailto:"+email}>{email}</a></p>}{phone&&<p><span className="studio-label">TELEFON</span><a href={"tel:"+phone.replace(/[^+0-9]/g,"")}>{phone}</a></p>}{address&&<p><span className="studio-label">ADRES</span>{address}</p>}{!email&&!phone&&!address&&<p>Firma iletişim bilgileri onay sonrasında eklenecektir.</p>}<LineIcon kind="plan"/></div><ContactForm email={email}/></section></>}
