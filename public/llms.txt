@@ -1,4 +1,4 @@
-# AYS Mimarlık
+# AYS İç Mimarlık
 Türkçe mimarlık ve iç mimari sitesi tasarım konsepti.
 - / — Etkileşimli mimari eskiz ve tasarım yaklaşımı
 - /hakkimizda/ — Tasarım felsefesi ve çalışma ilkeleri
