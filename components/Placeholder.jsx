@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Placeholder({title}){return <section className="shell placeholder"><div className="eyebrow"><span/> AYS MİMARLIK / TASARIM</div><h1>{title}<em>.</em></h1><p>Bu sayfanın tasarımı sonraki aşamada hazırlanacaktır.</p><Link href="/" className="action">Ana sayfaya dön <span>↗</span></Link></section>}

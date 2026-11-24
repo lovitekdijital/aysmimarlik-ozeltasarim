@@ -1,0 +1,3 @@
+# AYS Mimarlık
+Mimari tasarım ve iç mimari için özel tasarım web sitesi demosu.
+Henüz yalnızca giriş bölümü tamamlanmıştır. Firma bilgileri ve hizmetler doğrulandıktan sonra içerik güncellenecektir.

@@ -1,0 +1,5 @@
+import Link from "next/link";
+import HouseAnimation from "../components/HouseAnimation";
+import {meta} from "../lib/site";
+export const metadata=meta("Her yapı bir çizgiyle başlar","AYS Mimarlık: fikirden çizgiye, çizgiden mekâna. Mimari tasarım konsepti.","/");
+export default function Home(){return <section className="shell hero"><div className="hero-copy"><div className="eyebrow"><span/> MİMARLIK / İÇ MİMARİ / TASARIM</div><h1>Her yapı<br/>bir çizgiyle<br/><em>başlar.</em></h1><p>Bir fikir, bir çizgi, bir mekân. Yaşamı yeniden düşünerek anlamlı ve zamansız alanlar tasarlıyoruz.</p><Link className="action" href="/projeler/">Projeleri keşfet <span aria-hidden="true">↗</span></Link><div className="hero-index"><span>01 / AYS MİMARLIK</span><span>FİKİRDEN MEKÂNA</span></div></div><HouseAnimation/></section>}
