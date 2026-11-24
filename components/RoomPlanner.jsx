@@ -17,7 +17,7 @@ const SAMPLE=[
  {id:2,type:"sofa",x:205,y:112,angle:0},
  {id:3,type:"chair",x:105,y:210,angle:90},
  {id:4,type:"coffee",x:210,y:204,angle:0},
- {id:5,type:"tv",x:205,y:340,angle:180},
+ {id:5,type:"tv",x:320,y:340,angle:180},
  {id:6,type:"dining",x:407,y:235,angle:0},
  {id:7,type:"plant",x:454,y:101,angle:0}
 ];
